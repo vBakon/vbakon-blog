@@ -1,0 +1,11 @@
+/* font Barlow */
+@font-face{
+    font-family: Barlow;
+    src: url("../fonts/BarlowCondensed-ExtraLight.ttf");
+}
+
+/* font Rajdhani */
+@font-face{
+    font-family: Rajdhani;
+    src: url("../fonts/Rajdhani-Regular.ttf");
+}
