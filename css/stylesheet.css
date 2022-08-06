@@ -35,21 +35,50 @@ ul{
     list-style-type: none;
 }
 
+hr{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: var(--dkblue);
+}
+
 h1{
     font-family: var(--Title);
     font-size: 2.5rem;
+    color: var(--dkblue);
+    margin: auto;
+    margin-left: 5px;
 }
 
 h2{
     font-family: var(--Title);
     font-size: 2rem;
+    margin: auto;
+    margin-left: 5px;
+    color: var(--dkblue);
 }
 
 h3{
     font-family: var(--Secondary);
     font-size: 1.3rem;
+    margin: auto;
+    margin-left: 5px;
+    color: var(--lightblue);
+}
+
+p{
+    font-family: var(--Secondary);
+    font-size: 1rem;
+    text-indent: 25px;
+}
+
+li{
+    margin-left: 20px;
+    font-family: var(--Secondary);
 }
 /* ---- global classes ---- */
+
+
 
 /* ---- nav bar ---- */
 .nav{
@@ -156,7 +185,7 @@ footer.footer p{
 
 
 
-/* viewport foir nav bar */
+/* viewport for nav bar */
 @media only screen and (max-width: 750px){
     .nav .nav-menu, .nav .nav-items{
         flex-direction: column;
@@ -165,3 +194,80 @@ footer.footer p{
         display: initial;
     }
 }
+
+
+/* ---- INDEX ---- */
+/* ---- main ---- */
+.present p{
+    text-align: center;
+}
+
+.background-site{
+    text-align: center;
+}
+
+a.link-portfolio-main{
+    color: var(--dkblue);
+}
+
+a.link-portfolio-main:hover{
+    color: var(--lightblue);
+    text-decoration: underline;
+}
+
+.portfolio-present{
+    text-align: left;
+}
+
+.main-portfolio{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-about{
+    text-align: center;
+}
+
+.title{
+    margin: 1rem;
+}
+/* ---- main ---- */
+/* ---- INDEX ---- */
+
+/* ---- PORTFOLIO ---- */
+.portfolio-main-page{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.topics-l1, .topics-l2{
+    margin: 1rem;
+}
+
+.content-1-2-3, .content-4-5-6{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10rem;
+}
+
+p.legend{
+    text-indent: 0;
+}
+
+p.legend a{
+    color: black;
+    font-size: 1rem;
+    font-family: var(--Secondary);
+}
+
+p.legend a:hover{
+    color: var(--midblue);
+    text-decoration: underline;
+}
+/* ---- PORTFOLIO ---- */
+
+/* ---- ABOUT ME ---- */
+.about-me-page{
+    margin-top: 1rem;
+}
+/* ---- ABOUT ME ---- */
