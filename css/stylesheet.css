@@ -76,6 +76,24 @@ li{
     margin-left: 20px;
     font-family: var(--Secondary);
 }
+
+button{
+    color: var(--dkblue);
+    background-color: var(--whitebg);
+    padding: 10px 24px;
+    border-radius: 25px;
+    border: 1px solid var(--dkblue);
+    margin-bottom: 10px;
+    font-family: var(--Secondary);
+    font-size: 14px;;
+}
+
+button:hover {
+    color: var(--lightblue);
+    background-color: var(--dkblue);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px rgba(0, 0, 0, 0.19);
+
+}
 /* ---- global classes ---- */
 
 
