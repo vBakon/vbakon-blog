@@ -21,8 +21,14 @@ html, body{
 /* ---- global classes ---- */
 a{
     text-decoration: none;
+    color: black;
+    font-family: var(--Secondary);
+    font-size: 1.2rem;
+}
+
+a:hover{
+    text-decoration: underline;
     color: var(--midblue);
-    font-family: var(--Title);
 }
 
 .flex-row{
@@ -68,9 +74,8 @@ h3{
 
 p{
     font-family: var(--Secondary);
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-indent: 25px;
-    margin-right: 20px;
 }
 
 li{
@@ -93,7 +98,11 @@ button:hover {
     color: var(--lightblue);
     background-color: var(--dkblue);
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px rgba(0, 0, 0, 0.19);
+}
 
+div {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 /* ---- global classes ---- */
 
@@ -142,7 +151,7 @@ button:hover {
 
 .nav .nav-items .nav-link {
     padding: 1.6rem 1rem;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     position: relative;
 }
 
@@ -155,7 +164,7 @@ button:hover {
 }
 
 .nav .nav-brand a{
-    font-size: 1.6rem;
+    font-size: 1.9rem;
     padding: 1rem 0;
     display: block;
 }
@@ -225,20 +234,16 @@ footer.footer p{
     text-align: center;
 }
 
-a.link-portfolio-main{
-    color: var(--dkblue);
-}
-
-a.link-portfolio-main:hover{
-    color: var(--lightblue);
-    text-decoration: underline;
-}
-
 .portfolio-present{
     text-align: left;
 }
 
 .main-portfolio{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-portfolio-txt{
     display: inline-block;
     vertical-align: middle;
 }
@@ -249,6 +254,16 @@ a.link-portfolio-main:hover{
 
 .title{
     margin: 1rem;
+}
+
+.title-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.portfolio-holder {
+    width: 60%;
+    height: 100%;
 }
 /* ---- main ---- */
 /* ---- INDEX ---- */
