@@ -263,6 +263,11 @@ footer.footer p{
 /* ---- INDEX ---- */
 
 /* ---- PORTFOLIO ---- */
+.category{
+    width: 20%;
+    height: auto;
+}
+
 .portfolio-main-page{
     text-align: center;
     margin-top: 1rem;
